@@ -17,34 +17,74 @@
   },
   "cell_types_and_sources_identical": true,
   "dataset_attachment": {
+    "observed_at": "2026-10-24T18:54:51.103562+00:00",
     "requested": "prvsiyan/a-square-deal-frozen-public-inputs/2",
     "returned": [
       "prvsiyan/a-square-deal-frozen-public-inputs"
     ],
-    "version_binding_verified": false
+    "verification_basis": "Visible Version 2 dataset card reached from the exact V5 notebook input page, followed by canonical read-only publication reconciliation.",
+    "verified_version": 2,
+    "version_binding_verified": true
   },
   "evidence_sha256": {
+    "accepted_submission_binding": "830dfbdf9ac37969837db6ff958e73e3dd4ac7118f0164e518f0667e14a8d0d8",
     "attachment_observation": "8ba039e804d691d87c3210433dd8260c3a8d404221f302b4fee3f002425f142e",
+    "dataset_attachment_review": "77854e343567e11c7bd81bc6d3be54ce3be38c9fa83030c156336ece2a5a6834",
+    "exact_official_complete_poll": "d5a2d974ac8cfac1f715f9b2a7af5720d62a5cc6a7f5d2dc26fd01aa92ea9870",
     "exact_version_complete_observation": "83a6b45c41bf0bf418ac032bdfe323ff6c3009444134ba7a2cdfae55cd45cd9e",
     "exact_version_running_observation": "cfe2acd22ba3064f3c4cf34afc2090263ad55a11d3e8950ccfc1a60d423a30ea",
+    "leaderboard_capture_receipt": "5352456754bff582f4e9e4460c14cce5bec9d72650c1a43778609393672a9adf",
+    "leaderboard_screenshot": "1517776284571631d0d734ad606f2cb220ec7f156c32fc169d235f6bbff1d47a",
+    "native_score_badge_screenshot": "3f3890fc640f89024b30b739a6eca934495dc7d21fa22f9a7a0cfbc437de55cc",
+    "native_score_badge_snapshot": "c24a30cbf6a5840e2f64904fe009a9c70ed5ed5e71fa6746fc21516d75ead872",
+    "official_acceptance": "9e0499650e697e77ef5976f6254a7fc96c26f1a8b316a16f9e91c6f43d4a783f",
     "output_verification": "f9aa296dc4199d6707c491d8afaae63cde120a87a316bcd3807e4a3d80ba55a5",
     "trusted_capture_receipt": "9fa2466f4cc807bc1823b2dca18f7d6933ba548bc906e92614a4b26886440808",
-    "verified_capture": "a86c20620b8563ce1d442b9730148b9788797612b4e5086c42602a6742eaae04"
+    "verified_capture": "a86c20620b8563ce1d442b9730148b9788797612b4e5086c42602a6742eaae04",
+    "verified_score_receipt": "51c5664c45537632138d9f207d0efd040dfc4b96b2407bda3b8072d8dee79bfa"
   },
   "exact_final_source_execution_status": "passed",
   "identity_verified": true,
   "intended_version": 5,
   "last_completed_full_notebook_local_score": 22.34796660625442,
   "last_completed_full_notebook_source_sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c",
+  "leaderboard_snapshot": {
+    "account": "prvsiyan",
+    "basis": "Native competition leaderboard screenshot reviewed after the verified V5 submission. Rank is a time-scoped observation and can change.",
+    "observed_at": "2026-10-24T19:14:48.963113+00:00",
+    "personal_best_observed": true,
+    "rank": 236,
+    "raw_score": "22.3479666062"
+  },
+  "ledger_evidence_sha256": {
+    "native_score_badge": "09ba26fa2e1b3684564ec3ecc20d3735bf425e0e971a725b660ded7924663516",
+    "official_complete_row": "709c626f1aa30ba0ef3f254fe795adaf71e04bbc023f9be7da98c3339823c986",
+    "publication_reconciliation": "f47176176ae1190524ef50d9fbe81ba595c97e728991ada6586a70b8b4d5bcc8"
+  },
   "native_run_observed_at": "2026-10-24T18:38:30.437170+00:00",
   "native_run_status": "COMPLETE",
-  "next_action": "Reconcile the exact dataset-version metadata, then use the guarded notebook-native submission workflow. Do not resend the accepted update.",
-  "note": "Native execution and output capture passed. Metadata reconciliation and competition submission remain pending. No official score or completed campaign is claimed.",
-  "official_public_score": null,
-  "official_submission_status": "PENDING_NOT_SUBMITTED",
+  "native_score_badge": {
+    "binding_basis": "Exact native V5 badge and matching accepted official submission row.",
+    "notebook_version": 5,
+    "observed_at": "2026-10-24T19:13:23.372319+00:00",
+    "raw_score": "22.3479666062",
+    "visible": true
+  },
+  "next_action": "Preserve the completed V5 result. Evaluate new experiments before any separately validated notebook update; never resend this consumed V5 submission.",
+  "note": "V5 publication and dataset version 2 are reconciled. The exact official COMPLETE row and a separate native V5 score badge verify the score. Local metric results remain separately recorded; no global optimality or broader campaign completion is claimed.",
+  "official_complete_observed_at": "2026-10-24T19:12:56.497279+00:00",
+  "official_improvement_over_v4": "0.2541542395",
+  "official_public_score": "22.3479666062",
+  "official_score_verified_at": "2026-10-24T19:13:42.705745+00:00",
+  "official_submission_accepted_observed_at": "2026-10-24T19:09:08.597168+00:00",
+  "official_submission_channel": "notebook_submit_to_competition_menu",
+  "official_submission_id": "57604390",
+  "official_submission_intent_id": "102c0160-b299-467a-9156-a671a844f4ea",
+  "official_submission_status": "COMPLETE",
   "publication_id": "0eb0a439-b755-44d1-9afd-25099e376c06",
-  "publication_record_state": "AMBIGUOUS",
-  "publication_status": "accepted_run_complete_metadata_reconciliation_pending",
-  "recorded_at": "2026-10-24T18:46:02.862268+00:00",
+  "publication_reconciled_at": "2026-10-24T18:58:43.023925+00:00",
+  "publication_record_state": "CONFIRMED",
+  "publication_status": "accepted_run_complete_metadata_reconciled",
+  "recorded_at": "2026-10-24T19:15:36.262813+00:00",
   "source_binding_observed_at": "2026-10-24T18:31:35.422794+00:00"
 }

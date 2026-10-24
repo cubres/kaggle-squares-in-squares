@@ -11,13 +11,17 @@ We reuse credited numerical packings, test a bounded CPU refinement, and validat
 | Notebook V1 | 22.6743067475 | Completed Kaggle submission 57498657 |
 | Notebook V4 | 22.6021208457 | Completed Kaggle submission 57499680 |
 | Refreshed portfolio | 22.34796660625442 | Local official-metric evaluation; 1,000 accepted puzzles and 500,500 rows |
-| Notebook V5 | **No official score yet** | COMPLETE at 18:38 UTC; captured output verified; competition submission pending |
+| Notebook V5 | **22.3479666062** | Completed Kaggle submission 57604390; exact V5 score badge verified |
 
-The current candidate source starts with SHA256 `abe2040028c4609a`. Its exact-source full-notebook execution passed in 180.03 seconds. [Validation details](results/local-validation.json) retain the source and output hashes. [Status](results/status.json) keeps local validation separate from publication, a native Kaggle run, and official scoring.
+The frozen source used for V5 starts with SHA256 `abe2040028c4609a`. Kaggle's serialized source starts with `c95c2797dc5bb533`; its cell types and source match the frozen candidate. Its exact-source full-notebook execution passed in 180.03 seconds. [Validation details](results/local-validation.json) retain the source and output hashes. [Status](results/status.json) keeps local validation separate from publication, a native Kaggle run, and official scoring.
 
 Kaggle accepted V5 at **18:27:12 UTC on 24 October 2026**. An exact-version check observed it **COMPLETE at 18:38:30 UTC**. Its captured CSV passed the full interval metric: **1,000 valid puzzles, 500,500 rows, local score 22.34796660625442**. The CSV hash matches the local candidate output. The full notebook identity and cell types/source also match.
 
-Metadata reconciliation is still open: we requested dataset version 2, but the API returned only its unversioned slug. Our publication record therefore remains `AMBIGUOUS`. We will audit that binding without sending another update. Competition submission is pending; no new official score or completed campaign is claimed.
+The native input page confirmed **dataset version 2**, and the publication record is `CONFIRMED`. We submitted V5 once through its notebook-native competition form. Submission **57604390** was observed **COMPLETE at 19:12:56 UTC**, with official score **22.3479666062**. A separate native V5 score badge confirmed the same value at 19:13:23 UTC. This improves the V4 official score by **0.2541542395**. [Status and evidence hashes](results/status.json) bind the result to the exact CSV.
+
+The native leaderboard showed `prvsiyan` at **rank 236**, with a new personal best, at **19:14:48 UTC on 24 October 2026**. This is a dated snapshot; the rank can change.
+
+The local experiment reports below preserve their original observations, including null official scores. The current verified competition outcome is recorded in `results/status.json`.
 
 The refreshed score improves the recomputed V4 local baseline by **0.25415423954312644**. Most of that gain comes from newer, credited public witnesses. Our extra refinement contributes **0.00008230149543297927**. On twelve seeds, plain repeated LP supplies most of this smaller gain; contact-axis exchange adds **0.0000013684091344501326** beyond three plain-LP rounds. The exchange method performs more solves. This is not an equal-compute comparison. See [the ablation](results/contact-ablation.json).
 
