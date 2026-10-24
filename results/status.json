@@ -1,13 +1,50 @@
 {
+  "accepted_at": "2026-10-24T18:27:12+00:00",
+  "accepted_version": 5,
   "candidate_source_sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c",
+  "capture": {
+    "accepted_puzzles": 1000,
+    "full_interval_metric_passed": true,
+    "local_metric_score": 22.34796660625442,
+    "metric_sha256": "1f5c66bddf7074c0108cd712b62411a80221b034e582f26959f977e4fa08e143",
+    "output_contract": "squares-certified-refresh-20261024",
+    "rejected_puzzles": 0,
+    "rows": 500500,
+    "source_sha256": "c95c2797dc5bb533817ef5b0c5959cc6a3205fc8d15cdfb837b2bcdd1d02ae8f",
+    "state": "VERIFIED",
+    "submission_sha256": "c6806d69baf1bc2857ff76c31d518eb980f42b440a0e57d195ce5a4a4217a80a",
+    "version": 5
+  },
+  "cell_types_and_sources_identical": true,
+  "dataset_attachment": {
+    "requested": "prvsiyan/a-square-deal-frozen-public-inputs/2",
+    "returned": [
+      "prvsiyan/a-square-deal-frozen-public-inputs"
+    ],
+    "version_binding_verified": false
+  },
+  "evidence_sha256": {
+    "attachment_observation": "8ba039e804d691d87c3210433dd8260c3a8d404221f302b4fee3f002425f142e",
+    "exact_version_complete_observation": "83a6b45c41bf0bf418ac032bdfe323ff6c3009444134ba7a2cdfae55cd45cd9e",
+    "exact_version_running_observation": "cfe2acd22ba3064f3c4cf34afc2090263ad55a11d3e8950ccfc1a60d423a30ea",
+    "output_verification": "f9aa296dc4199d6707c491d8afaae63cde120a87a316bcd3807e4a3d80ba55a5",
+    "trusted_capture_receipt": "9fa2466f4cc807bc1823b2dca18f7d6933ba548bc906e92614a4b26886440808",
+    "verified_capture": "a86c20620b8563ce1d442b9730148b9788797612b4e5086c42602a6742eaae04"
+  },
   "exact_final_source_execution_status": "passed",
+  "identity_verified": true,
   "intended_version": 5,
   "last_completed_full_notebook_local_score": 22.34796660625442,
   "last_completed_full_notebook_source_sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c",
-  "native_run_status": "not yet verified in this package",
-  "note": "Dataset V2 has been published and selected remote extracted bytes were checked. A dataset update is not a notebook run or competition submission.",
+  "native_run_observed_at": "2026-10-24T18:38:30.437170+00:00",
+  "native_run_status": "COMPLETE",
+  "next_action": "Reconcile the exact dataset-version metadata, then use the guarded notebook-native submission workflow. Do not resend the accepted update.",
+  "note": "Native execution and output capture passed. Metadata reconciliation and competition submission remain pending. No official score or completed campaign is claimed.",
   "official_public_score": null,
-  "official_submission_status": "not yet submitted in this package",
-  "publication_status": "not yet verified in this package",
-  "recorded_at": "2026-10-24T18:17:14.709094+00:00"
+  "official_submission_status": "PENDING_NOT_SUBMITTED",
+  "publication_id": "0eb0a439-b755-44d1-9afd-25099e376c06",
+  "publication_record_state": "AMBIGUOUS",
+  "publication_status": "accepted_run_complete_metadata_reconciliation_pending",
+  "recorded_at": "2026-10-24T18:46:02.862268+00:00",
+  "source_binding_observed_at": "2026-10-24T18:31:35.422794+00:00"
 }

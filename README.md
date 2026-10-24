@@ -11,9 +11,13 @@ We reuse credited numerical packings, test a bounded CPU refinement, and validat
 | Notebook V1 | 22.6743067475 | Completed Kaggle submission 57498657 |
 | Notebook V4 | 22.6021208457 | Completed Kaggle submission 57499680 |
 | Refreshed portfolio | 22.34796660625442 | Local official-metric evaluation; 1,000 accepted puzzles and 500,500 rows |
-| Planned V5 | **Not yet an official result** | Publication, native run, and notebook-attached submission remain separate stages |
+| Notebook V5 | **No official score yet** | COMPLETE at 18:38 UTC; captured output verified; competition submission pending |
 
 The current candidate source starts with SHA256 `abe2040028c4609a`. Its exact-source full-notebook execution passed in 180.03 seconds. [Validation details](results/local-validation.json) retain the source and output hashes. [Status](results/status.json) keeps local validation separate from publication, a native Kaggle run, and official scoring.
+
+Kaggle accepted V5 at **18:27:12 UTC on 24 October 2026**. An exact-version check observed it **COMPLETE at 18:38:30 UTC**. Its captured CSV passed the full interval metric: **1,000 valid puzzles, 500,500 rows, local score 22.34796660625442**. The CSV hash matches the local candidate output. The full notebook identity and cell types/source also match.
+
+Metadata reconciliation is still open: we requested dataset version 2, but the API returned only its unversioned slug. Our publication record therefore remains `AMBIGUOUS`. We will audit that binding without sending another update. Competition submission is pending; no new official score or completed campaign is claimed.
 
 The refreshed score improves the recomputed V4 local baseline by **0.25415423954312644**. Most of that gain comes from newer, credited public witnesses. Our extra refinement contributes **0.00008230149543297927**. On twelve seeds, plain repeated LP supplies most of this smaller gain; contact-axis exchange adds **0.0000013684091344501326** beyond three plain-LP rounds. The exchange method performs more solves. This is not an equal-compute comparison. See [the ablation](results/contact-ablation.json).
 
