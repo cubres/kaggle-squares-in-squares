@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "native_csv_sha256": "fa568ef79f77f72520e51b3ee8b24b3935bb369a806d52e5d5b057edbd7673be",
+      "native_version_id": 360927128,
+      "raw_score": "22.6743067475",
+      "submission_id": "57498657",
+      "verified_at": "2026-10-21T22:15:03.571457+00:00",
+      "version": 1
+    },
+    {
+      "native_csv_sha256": "6b3c5e51a5ab3118bc37ad5aecb8b70ef2f655bcb5fc68e53771fca660e9f11e",
+      "native_version_id": 360935725,
+      "raw_score": "22.6021208457",
+      "submission_id": "57499680",
+      "verified_at": "2026-10-21T23:08:46.772555+00:00",
+      "version": 4
+    }
+  ],
+  "scope": "Historical completed official results, preserved with original submission IDs"
+}

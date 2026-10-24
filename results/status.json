@@ -1,0 +1,13 @@
+{
+  "candidate_source_sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c",
+  "exact_final_source_execution_status": "passed",
+  "intended_version": 5,
+  "last_completed_full_notebook_local_score": 22.34796660625442,
+  "last_completed_full_notebook_source_sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c",
+  "native_run_status": "not yet verified in this package",
+  "note": "Dataset V2 has been published and selected remote extracted bytes were checked. A dataset update is not a notebook run or competition submission.",
+  "official_public_score": null,
+  "official_submission_status": "not yet submitted in this package",
+  "publication_status": "not yet verified in this package",
+  "recorded_at": "2026-10-24T18:17:14.709094+00:00"
+}

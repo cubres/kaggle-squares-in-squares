@@ -1,0 +1,7 @@
+# Recorded full-notebook validation environment: Python 3.12.14
+numpy==2.2.6
+scipy==1.18.0
+pandas==3.0.3
+mpmath==1.4.1
+threadpoolctl==3.6.0
+PyYAML==6.0.3

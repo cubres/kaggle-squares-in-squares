@@ -1,0 +1,112 @@
+{
+  "baseline_score": 22.602120845797547,
+  "clearance_ablation_note": "V4 clearance-only aggregate is a floating geometric estimate. Main candidate gains and fresh-seed method ablation were validated by the exact current interval metric on decimal rows.",
+  "clearance_ablation_v4_float_estimate": 4.0409378879473096e-05,
+  "compute_seconds": {
+    "baseline_search": 197.3390402920013,
+    "fresh_seed_search": 24.672933249999915,
+    "full_current_validation": 102.7565842499971,
+    "plain_LP_ablation": 7.926112583998474
+  },
+  "fixed_clearance_fresh_seed_comparison": 4e-08,
+  "fresh12_gain": 8.230149543297927e-05,
+  "fresh_positive_sizes": [
+    503,
+    596,
+    748,
+    869,
+    928,
+    983,
+    984,
+    989,
+    990
+  ],
+  "limitations": [
+    "No official competition submission was made.",
+    "Most fresh-seed improvement comes from repeated plain LP; the new exchange step adds a smaller measured increment.",
+    "The branch-exchange search uses more LP solves than the plain-LP ablation, so this is not an equal-runtime comparison.",
+    "No global optimality or robustness to every portfolio is claimed."
+  ],
+  "max_parallel_cpu_processes": 1,
+  "method": "Dual-guided single separating-axis exchange extends the existing fixed-angle LP; it is a project-specific experiment, not a claim of a new global packing method.",
+  "new_axis_exchange_increment_over_three_round_plain_LP": 1.3684091344501326e-06,
+  "official_public_score": null,
+  "per_seed_gain": [
+    {
+      "gain": 5.09706097551188e-07,
+      "improved": true,
+      "n": 503
+    },
+    {
+      "gain": 1.1169976055214192e-10,
+      "improved": true,
+      "n": 596
+    },
+    {
+      "gain": 0.0,
+      "improved": false,
+      "n": 597
+    },
+    {
+      "gain": 0.0,
+      "improved": false,
+      "n": 647
+    },
+    {
+      "gain": 4.725198475452608e-05,
+      "improved": true,
+      "n": 748
+    },
+    {
+      "gain": 0.0,
+      "improved": false,
+      "n": 868
+    },
+    {
+      "gain": 2.284815998843115e-06,
+      "improved": true,
+      "n": 869
+    },
+    {
+      "gain": 4.3268807317087266e-06,
+      "improved": true,
+      "n": 928
+    },
+    {
+      "gain": 8.289025021923635e-09,
+      "improved": true,
+      "n": 983
+    },
+    {
+      "gain": 2.774262346894041e-05,
+      "improved": true,
+      "n": 984
+    },
+    {
+      "gain": 6.090891258025977e-08,
+      "improved": true,
+      "n": 989
+    },
+    {
+      "gain": 1.1617474404701511e-07,
+      "improved": true,
+      "n": 990
+    }
+  ],
+  "seed_sizes": [
+    503,
+    596,
+    597,
+    647,
+    748,
+    868,
+    869,
+    928,
+    983,
+    984,
+    989,
+    990
+  ],
+  "v4_candidate_score": 22.6019981070738,
+  "v4_gain": 0.00012273872374635175
+}

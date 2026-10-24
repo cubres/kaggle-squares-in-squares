@@ -1,0 +1,40 @@
+{
+  "account": "prvsiyan",
+  "competition": "https://www.kaggle.com/competitions/squares-in-squares",
+  "dataset_layout": "Kaggle auto-extracts uploaded .gz files. The runner verifies the decompressed content hash and accepts plain JSON or gzip.",
+  "frozen_dataset": "https://www.kaggle.com/datasets/prvsiyan/a-square-deal-frozen-public-inputs/versions/2",
+  "generated_art": {
+    "decorative_only": true,
+    "represents_certified_layout": false,
+    "sha256": "6a4fc26e4f125084b8962e2b331ec37ffa0b98f69863dc3494b915068eb9833a",
+    "url": "https://www.kaggle.com/datasets/prvsiyan/a-square-deal-frozen-public-inputs/versions/2?select=refresh-20261024-hero.png"
+  },
+  "integration_helper_note": "The public helper is adapted from our dataset helper to accept either plain JSON or gzip after verifying the supplied file-byte hash.",
+  "integration_inputs": {
+    "refresh-20261024-packings.json": {
+      "scope": "Kaggle extracted file bytes",
+      "sha256": "dca10ee5ef6346bcbd1f99fb50eba84cc23cc603c8b6c4ad176448259305c81c"
+    },
+    "refresh-20261024-sources.json": {
+      "scope": "Kaggle extracted file bytes",
+      "sha256": "5ca32228cd0ce8c51e09be88ba5bf95dd615c6c887adff813e1bca9fbe2cf01d"
+    }
+  },
+  "metric": {
+    "extraction": "Concatenate code cell 0 source, then append exactly one newline.",
+    "raw_cell_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "redistributed_here": false,
+    "sha256": "1f5c66bddf7074c0108cd712b62411a80221b034e582f26959f977e4fa08e143",
+    "url": "https://www.kaggle.com/code/metric/squares-in-squares",
+    "version_number": 17
+  },
+  "notebook": "https://www.kaggle.com/code/prvsiyan/a-square-deal-research-to-verified-packings",
+  "repository_owner": "cubres",
+  "rights_scope": "Original portable code and explanatory text follow our dataset CC BY 4.0 notice. External sources retain their individual rights.",
+  "source_catalogue": {
+    "commit": "1c1715399709bc955e9b402947ab8b52bbacdfc3",
+    "credit_scope": "Per-witness construction and nested source credits remain in the dataset source index; no blanket upstream reuse license is asserted.",
+    "manifest_sha256": "60054305cfbd61b919c638bf05c2d0fc95aa468404580122387dd67eee54a142",
+    "repository": "https://github.com/franciscouzo/square-packing"
+  }
+}

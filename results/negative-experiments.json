@@ -1,0 +1,29 @@
+{
+  "non_improving_fresh_seeds": [
+    597,
+    647,
+    868
+  ],
+  "preserved_failed_notebook_versions": [
+    {
+      "reason": "An upstream notebook was renamed; missing pinned public input. Corrected with an identical immutable dataset snapshot.",
+      "status": "ERROR",
+      "version": 2
+    },
+    {
+      "reason": "Upstream dataset attachment resolved to changed input bytes; hash check stopped execution. Exact public input snapshots were frozen in a supporting dataset.",
+      "status": "ERROR",
+      "version": 3
+    }
+  ],
+  "rigid_orientation": {
+    "baseline": "retained V4 exported CSV",
+    "method": "rigid hull orientation; exact finite support candidates",
+    "official_metric_verified": false,
+    "puzzles": 543,
+    "remote_submitted": false,
+    "score_gain": 0,
+    "seconds": 0.9315711249982996,
+    "wins": 0
+  }
+}

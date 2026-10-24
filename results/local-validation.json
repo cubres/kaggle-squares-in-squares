@@ -1,0 +1,95 @@
+{
+  "execution_outcome": "passed",
+  "execution_seconds": 180.0273515409972,
+  "metric": {
+    "accepted_submitted_puzzles": 1000,
+    "branch_exchange_increment": 1.3684091344501326e-06,
+    "elapsed_seconds": 175.7775760000004,
+    "extra_refinement_gain": 8.230149543297927e-05,
+    "gain_over_v4": 0.25415423954312644,
+    "grid_score": 28.93766991655059,
+    "metric_sha256": "1f5c66bddf7074c0108cd712b62411a80221b034e582f26959f977e4fa08e143",
+    "official_local_score": 22.34796660625442,
+    "official_public_score": null,
+    "omitted_grid_puzzles": 0,
+    "previous_official_score": 22.6021208457,
+    "rows": 500500,
+    "source_refresh_gain": 0.25407193804769435,
+    "stages": [
+      {
+        "improved": 0,
+        "score": 28.93766991655058,
+        "stage": "Exact grids"
+      },
+      {
+        "improved": 543,
+        "score": 22.674306751685368,
+        "stage": "Published research seeds"
+      },
+      {
+        "improved": 543,
+        "score": 22.674306751685368,
+        "stage": "Constructive Gobel families"
+      },
+      {
+        "improved": 543,
+        "score": 22.674306751685368,
+        "stage": "Scale and subdivide"
+      },
+      {
+        "improved": 543,
+        "score": 22.67430674759171,
+        "stage": "Integer frame transfer"
+      },
+      {
+        "improved": 543,
+        "score": 22.655620964313975,
+        "stage": "CPU corner windows in research witnesses"
+      },
+      {
+        "improved": 543,
+        "score": 22.655267154903918,
+        "stage": "Coupled refinement of cropped layouts"
+      },
+      {
+        "improved": 543,
+        "score": 22.60536076022323,
+        "stage": "Best per size + squarecraft"
+      },
+      {
+        "improved": 543,
+        "score": 22.602127381552588,
+        "stage": "Best per size + gpu-window"
+      },
+      {
+        "improved": 543,
+        "score": 22.6021254278276,
+        "stage": "CPU corner windows in public portfolios"
+      },
+      {
+        "improved": 543,
+        "score": 22.602120845797547,
+        "stage": "Backfill and integer-frame reuse"
+      },
+      {
+        "improved": 299,
+        "score": 22.34796660625442,
+        "stage": "Pinned 24 October numerical certificates and original contact-axis refinements"
+      }
+    ],
+    "submission_sha256": "c6806d69baf1bc2857ff76c31d518eb980f42b440a0e57d195ce5a4a4217a80a",
+    "updated_sizes": 299,
+    "versions": {
+      "PyYAML": "6.0.3",
+      "mpmath": "1.4.1",
+      "numpy": "2.2.6",
+      "pandas": "3.0.3",
+      "scipy": "1.18.0"
+    }
+  },
+  "output_bytes_rehashed": true,
+  "recorded_at": "2026-10-24T18:17:14.707799+00:00",
+  "scope": "Completed exact-source local full-notebook execution; no new official score",
+  "source_receipt_sha256": "6aac9d5d89e440efa4d23d74c40acfee935b523cdf5b7d93f9990cd16c2580c8",
+  "source_sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c"
+}

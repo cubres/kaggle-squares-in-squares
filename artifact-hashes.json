@@ -1,0 +1,65 @@
+{
+  "artifacts": [
+    {
+      "artifact": "original completed notebook-validation receipt",
+      "bytes": 3535,
+      "sha256": "045f2fcb56fcc69849c69812422974555b044bf488e729b3ddccf49aae81678e"
+    },
+    {
+      "artifact": "current candidate notebook source",
+      "bytes": 942300,
+      "sha256": "abe2040028c4609a4ab762d7ebe8630ebbd6cba0ae0e4178cf3d4658e9d9e71c"
+    },
+    {
+      "artifact": "full composed decimal submission",
+      "bytes": 23932643,
+      "sha256": "c6806d69baf1bc2857ff76c31d518eb980f42b440a0e57d195ce5a4a4217a80a"
+    },
+    {
+      "artifact": "original experiment report",
+      "bytes": 4902,
+      "sha256": "aa74575a44a01682604fb4e70f6f08e314eab1f860d31203831cab4904bdab12"
+    },
+    {
+      "artifact": "original experiment ablation",
+      "bytes": 6968,
+      "sha256": "c06077f2ea8d1228af852b5c159bf80242274b577397ee6eba5c27f430dc64f2"
+    },
+    {
+      "artifact": "original rigid-orientation negative result",
+      "bytes": 100259,
+      "sha256": "122516e64dc6898deed401b74e2f63392fe6ccf7e9e404fc47ddf1a02509e782"
+    },
+    {
+      "artifact": "decompressed public fresh seeds",
+      "bytes": 1805465,
+      "sha256": "9b54552342fd7a9e2334461be5d66b3bd617d3dd0cd25d656511bf5127abb9f1"
+    },
+    {
+      "artifact": "published original portable experiment",
+      "bytes": 8047,
+      "sha256": "f08849ddd540740ab25fdfdfe091eeff5e28bab1a1e4ecd896e9b78c76c277f0"
+    },
+    {
+      "artifact": "original V1 completed official receipt",
+      "bytes": 3470,
+      "sha256": "51d7a0f4e911d5796323538410d1062b3589521764391844de0ccdc0df16831b"
+    },
+    {
+      "artifact": "original V4 completed official receipt",
+      "bytes": 7968,
+      "sha256": "1f364c298336e1609270701379c69fb1b2b53d8ec3a38cba4bc9a2652efb8a81"
+    },
+    {
+      "artifact": "final exact-source execution receipt",
+      "bytes": 511,
+      "sha256": "6aac9d5d89e440efa4d23d74c40acfee935b523cdf5b7d93f9990cd16c2580c8"
+    },
+    {
+      "artifact": "final exact-source local metric receipt",
+      "bytes": 2270,
+      "sha256": "22cab6ea038ba1c7495d5ea2337077cfd4326286498b4260053c8f6f18b0dab3"
+    }
+  ],
+  "scope": "Hashes identify retained original bytes; public summaries have distinct hashes in repository-manifest.json"
+}

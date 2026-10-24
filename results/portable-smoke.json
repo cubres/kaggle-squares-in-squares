@@ -1,0 +1,35 @@
+{
+  "accepted": true,
+  "baseline_metric": [
+    503,
+    0.021058391175758917,
+    "22.89995196086196695799587210133010543645977534945768",
+    "ok"
+  ],
+  "candidate_metric": [
+    503,
+    0.021058237313974493,
+    "22.89994851010195155151910306347132861509842372071488",
+    "ok"
+  ],
+  "clearance": 4e-08,
+  "elapsed_seconds": 0.7814950419997331,
+  "gain": 1.5386178442433618e-07,
+  "input_hashes": {
+    "metric": "1f5c66bddf7074c0108cd712b62411a80221b034e582f26959f977e4fa08e143",
+    "seeds_decompressed": "9b54552342fd7a9e2334461be5d66b3bd617d3dd0cd25d656511bf5127abb9f1"
+  },
+  "method": "contact_exchange_round0:(2258, 0)",
+  "n": 503,
+  "observed_at": "2026-10-24T18:10:40.583883+00:00",
+  "official_score": null,
+  "raw_result_sha256": "9e62b6bf893adf65e0889e11d8e162ba4b4f8b99d5ec9a8ca8780fa12293a8ca",
+  "rounds": 1,
+  "scope": "One-seed, one-round portable CLI smoke. This does not reproduce the full twelve-seed experiment.",
+  "selected_metric": [
+    503,
+    0.021058237313974493,
+    "22.89994851010195155151910306347132861509842372071488",
+    "ok"
+  ]
+}

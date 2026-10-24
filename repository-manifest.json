@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-24T18:18:05.058820+00:00",
+  "files": {
+    ".gitignore": {
+      "bytes": 50,
+      "sha256": "9b6bea808660727daa9a86ec30e0a04c4cdee5d15a688c42470243e53732be14"
+    },
+    "NOTICE.md": {
+      "bytes": 1737,
+      "sha256": "ce294cae811d22c33a245e17fa8bff2aea1f6bd9ad9bd54baf722c86e3c45e6b"
+    },
+    "README.md": {
+      "bytes": 6763,
+      "sha256": "8557d5c80cec3bc1e249e8c790cfe34a76ec338cb4518014361ecd8bedf166a2"
+    },
+    "apply_refresh.py": {
+      "bytes": 3196,
+      "sha256": "9bbd54c63bc3e6ab5199d81e166d717287eff9e1fd773889a9e363685290db65"
+    },
+    "artifact-hashes.json": {
+      "bytes": 2250,
+      "sha256": "6986f71e1e290f28a7c75a7bda6053fb2911de135a1ec432a3b29ee8b914cfc1"
+    },
+    "contact_experiment.py": {
+      "bytes": 8047,
+      "sha256": "f08849ddd540740ab25fdfdfe091eeff5e28bab1a1e4ecd896e9b78c76c277f0"
+    },
+    "provenance.json": {
+      "bytes": 2305,
+      "sha256": "4f337c052001aa08cf97ccbecf05224bb4db66731bc712a33de1e7f1d897e1e2"
+    },
+    "requirements.txt": {
+      "bytes": 154,
+      "sha256": "2b45970879639896aeeed17b83e657913bb88b16a21d0f3907be599219dd549a"
+    },
+    "results/contact-ablation.json": {
+      "bytes": 7190,
+      "sha256": "d487e8a90d31dd99fbc02e0c9497921508a73b2bbf27a0eaf1d308502bbab780"
+    },
+    "results/earlier-source-validation.json": {
+      "bytes": 2865,
+      "sha256": "4fa140ef4b91ef69e3dc2f7921ca2ced33df92191f0c03c0e1fa6cad49e52214"
+    },
+    "results/experiment-summary.json": {
+      "bytes": 2713,
+      "sha256": "a1ab902f04c2dc45e93630669c84546d726d1cf2224fae4e1fba20ea9fcd0bc7"
+    },
+    "results/historical-official-scores.json": {
+      "bytes": 700,
+      "sha256": "c507a955cdc8230a8b8e83da1be5d82cce8914ff734d68de1fcd804ee480b0c0"
+    },
+    "results/local-validation.json": {
+      "bytes": 2890,
+      "sha256": "4fbe17d7a18a0ba93b00e31c05db57b54495d1d146df53c50296fe4826118464"
+    },
+    "results/negative-experiments.json": {
+      "bytes": 848,
+      "sha256": "60feacf4c0fb1771c4ed5665e2fe224f4346b595e10f8f9c63ade6eeacd61522"
+    },
+    "results/portable-smoke.json": {
+      "bytes": 1077,
+      "sha256": "92b72d8dd98061b2427b0884fa580c5e22409ed28ca87e514b4ea4937e17111a"
+    },
+    "results/status.json": {
+      "bytes": 790,
+      "sha256": "8628ab991907b2d073ddaac568ac1362ddf149699497cbd9892e6ad961a30590"
+    },
+    "run_experiment.py": {
+      "bytes": 2810,
+      "sha256": "25547e017366a854a6e2e5167add557c2eb9dc6e0d8dc3c524b40cfeac7a83ae"
+    }
+  },
+  "scope": "Exact proposed public repository bytes; this manifest excludes itself. No notebooks, source data, credentials, or artwork binaries are included."
+}
