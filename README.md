@@ -96,3 +96,10 @@ To reproduce all twelve outcomes, run each size in `results/experiment-summary.j
 The new pastel-square opening image is generated decoration. It is not a packing certificate or a measured scientific figure. The notebook's scientific charts use actual coordinates and measured results.
 
 No competitor notebook prose, artwork, or complete program is copied into this repository. The large numerical files and third-party metric remain at their original public sources. This repository contains our portable experiment, helper, and compact reports.
+
+
+## Dataset usability update (8 November 2026)
+
+[Kaggle dataset version 9](https://www.kaggle.com/datasets/prvsiyan/squares-verified-best-of-1105) adds a start-here README, data dictionary, validation guide, and structural checker under the existing dataset ID and title. The nine earlier data and tool files remain unchanged; the full 500,500-row submission passed the structural checks, including the global row-ID formula.
+
+I downloaded the published `submission.csv` and `DATA_DICTIONARY.md` and verified both SHA-256 hashes against the release payload. Kaggle's dataset usability rating changed from 0.47058824 to 0.52941176 after this version. The dataset still has **0 visible votes**; this is a usability improvement, not an upvote result. Its reported 22.22190703780 value is a local exact-metric/float64 validation score, not an official Kaggle submission score.
